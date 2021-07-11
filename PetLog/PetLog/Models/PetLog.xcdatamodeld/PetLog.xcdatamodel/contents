@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="21A5248p" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Expense" representedClassName="Expense" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="category" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <relationship name="pet" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="expense" inverseEntity="Pet"/>
+    </entity>
+    <entity name="Journal" representedClassName="Journal" syncable="YES" codeGenerationType="class">
+        <attribute name="activity" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <relationship name="image" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="JournalImage" inverseName="journal" inverseEntity="JournalImage"/>
+        <relationship name="pet" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="journal" inverseEntity="Pet"/>
+    </entity>
+    <entity name="JournalImage" representedClassName="JournalImage" syncable="YES" codeGenerationType="class">
+        <attribute name="image" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="journal" maxCount="1" deletionRule="Nullify" destinationEntity="Journal" inverseName="image" inverseEntity="Journal"/>
+    </entity>
+    <entity name="Pet" representedClassName="Pet" syncable="YES" codeGenerationType="class">
+        <attribute name="arriveDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="birthday" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="breed" attributeType="String"/>
+        <attribute name="gender" attributeType="String"/>
+        <attribute name="isSelected" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="type" attributeType="String"/>
+        <relationship name="expense" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Expense" inverseName="pet" inverseEntity="Expense"/>
+        <relationship name="image" maxCount="1" deletionRule="Cascade" destinationEntity="PetImage" inverseName="pet" inverseEntity="PetImage"/>
+        <relationship name="journal" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Journal" inverseName="pet" inverseEntity="Journal"/>
+        <relationship name="reminder" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Reminder" inverseName="pet" inverseEntity="Reminder"/>
+        <relationship name="unusual" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Unusual" inverseName="pet" inverseEntity="Unusual"/>
+        <relationship name="weight" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Weight" inverseName="pet" inverseEntity="Weight"/>
+    </entity>
+    <entity name="PetImage" representedClassName="PetImage" syncable="YES" codeGenerationType="class">
+        <attribute name="image" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <relationship name="pet" maxCount="1" deletionRule="Cascade" destinationEntity="Pet" inverseName="image" inverseEntity="Pet"/>
+    </entity>
+    <entity name="Reminder" representedClassName="Reminder" syncable="YES" codeGenerationType="class">
+        <attribute name="category" attributeType="String"/>
+        <attribute name="customRepeat" attributeType="String" defaultValueString=""/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <attribute name="repeating" attributeType="String"/>
+        <relationship name="pet" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="reminder" inverseEntity="Pet"/>
+    </entity>
+    <entity name="Unusual" representedClassName="Unusual" syncable="YES" codeGenerationType="class">
+        <attribute name="category" attributeType="String"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <relationship name="pet" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="unusual" inverseEntity="Pet"/>
+    </entity>
+    <entity name="Weight" representedClassName="Weight" syncable="YES" codeGenerationType="class">
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="weight" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="pet" maxCount="1" deletionRule="Nullify" destinationEntity="Pet" inverseName="weight" inverseEntity="Pet"/>
+    </entity>
+    <entity name="WeightUnit" representedClassName="WeightUnit" syncable="YES" codeGenerationType="class">
+        <attribute name="inPound" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Expense" positionX="-27" positionY="72" width="128" height="104"/>
+        <element name="Journal" positionX="-18" positionY="45" width="128" height="119"/>
+        <element name="JournalImage" positionX="-27" positionY="90" width="128" height="59"/>
+        <element name="Pet" positionX="-45" positionY="0" width="128" height="224"/>
+        <element name="PetImage" positionX="-36" positionY="81" width="128" height="59"/>
+        <element name="Reminder" positionX="-18" positionY="108" width="128" height="134"/>
+        <element name="Unusual" positionX="-27" positionY="90" width="128" height="89"/>
+        <element name="Weight" positionX="-9" positionY="99" width="128" height="74"/>
+        <element name="WeightUnit" positionX="-27" positionY="90" width="128" height="44"/>
+    </elements>
+</model>

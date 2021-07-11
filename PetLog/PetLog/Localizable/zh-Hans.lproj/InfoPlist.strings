@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  PetLog
+
+  Created by Hao Qin on 6/8/21.
+  
+*/
+
+CFBundleDisplayName = "宠记";
+CFBundleName = "宠记";
+NSCameraUsageDescription = "用于为你的宠物拍摄照片";

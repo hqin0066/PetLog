@@ -1,0 +1,1346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30A954526571E5400B96350 /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A954426571E5400B96350 /* ZoomableImageView.swift */; };
+		A30A95492657379000B96350 /* FullScreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30A95482657379000B96350 /* FullScreenImageView.swift */; };
+		A30AA24E2640B43D00C1D6A7 /* PetLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA24D2640B43D00C1D6A7 /* PetLogApp.swift */; };
+		A30AA2502640B43D00C1D6A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA24F2640B43D00C1D6A7 /* ContentView.swift */; };
+		A30AA2552640B43D00C1D6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30AA2542640B43D00C1D6A7 /* Preview Assets.xcassets */; };
+		A30AA2602640B43D00C1D6A7 /* PetLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA25F2640B43D00C1D6A7 /* PetLogTests.swift */; };
+		A30AA26B2640B43D00C1D6A7 /* PetLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA26A2640B43D00C1D6A7 /* PetLogUITests.swift */; };
+		A30AA2842640BA6D00C1D6A7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2832640BA6D00C1D6A7 /* Persistence.swift */; };
+		A30AA2882640DBB900C1D6A7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2872640DBB900C1D6A7 /* MainTabView.swift */; };
+		A30AA28B2640DC9400C1D6A7 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA28A2640DC9400C1D6A7 /* TabBarItem.swift */; };
+		A30AA29426410E9100C1D6A7 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29326410E9100C1D6A7 /* HomePageView.swift */; };
+		A30AA29626410ED200C1D6A7 /* RecordPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29526410ED200C1D6A7 /* RecordPageView.swift */; };
+		A30AA29826410EE800C1D6A7 /* ReminderPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29726410EE800C1D6A7 /* ReminderPageView.swift */; };
+		A30AA29A26410F0700C1D6A7 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29926410F0700C1D6A7 /* ProfilePageView.swift */; };
+		A30AA29C26413C7C00C1D6A7 /* HomePageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29B26413C7C00C1D6A7 /* HomePageHeaderView.swift */; };
+		A30AA29E264158DF00C1D6A7 /* JournalSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29D264158DE00C1D6A7 /* JournalSectionHeaderView.swift */; };
+		A30AA2A026415B9600C1D6A7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA29F26415B9600C1D6A7 /* Extension.swift */; };
+		A30AA2A22642169C00C1D6A7 /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2A12642169C00C1D6A7 /* JournalDetailView.swift */; };
+		A30AA2A62642270E00C1D6A7 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2A52642270E00C1D6A7 /* JournalView.swift */; };
+		A30AA2D526425EE400C1D6A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A30AA2D726425EE400C1D6A7 /* Localizable.strings */; };
+		A30AA2DA26426DA500C1D6A7 /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2D926426DA500C1D6A7 /* HomeNavigationView.swift */; };
+		A30AA2DD264282E400C1D6A7 /* InfoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2DC264282E400C1D6A7 /* InfoPageView.swift */; };
+		A30AA2DF2642872200C1D6A7 /* ActivitySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2DE2642872200C1D6A7 /* ActivitySectionView.swift */; };
+		A30AA2E1264287B600C1D6A7 /* TypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2E0264287B600C1D6A7 /* TypeSelectionView.swift */; };
+		A30AA2E3264357D500C1D6A7 /* PetTypeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30AA2E2264357D500C1D6A7 /* PetTypeRow.swift */; };
+		A318DA972669E0340002BBC9 /* EditWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A318DA962669E0340002BBC9 /* EditWeightView.swift */; };
+		A31EE6FA265485B50084ED57 /* ActivityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE6F9265485B50084ED57 /* ActivityEnum.swift */; };
+		A31EE6FD2654EE230084ED57 /* ActivityCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE6FC2654EE230084ED57 /* ActivityCellView.swift */; };
+		A31EE6FF2655A0160084ED57 /* NoteSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE6FE2655A0160084ED57 /* NoteSectionView.swift */; };
+		A31EE7032655C9F40084ED57 /* FullEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE7022655C9F40084ED57 /* FullEditorView.swift */; };
+		A31EE7052655E00F0084ED57 /* UIImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE7042655E00F0084ED57 /* UIImagePickerView.swift */; };
+		A31EE7072655E5070084ED57 /* JournalImageSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31EE7062655E5070084ED57 /* JournalImageSectionView.swift */; };
+		A34366912643697A00DE11AB /* PetCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34366902643697A00DE11AB /* PetCreationView.swift */; };
+		A34366932643B20C00DE11AB /* WelcomePageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34366922643B20C00DE11AB /* WelcomePageControllerView.swift */; };
+		A34366952643B31B00DE11AB /* BreedSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34366942643B31B00DE11AB /* BreedSelectionView.swift */; };
+		A344BB39266020CB008EFDA3 /* Wedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB38266020CB008EFDA3 /* Wedge.swift */; };
+		A344BB3B26605E22008EFDA3 /* ExpenseGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB3A26605E22008EFDA3 /* ExpenseGraphView.swift */; };
+		A344BB3D26606A1E008EFDA3 /* EditExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB3C26606A1E008EFDA3 /* EditExpenseView.swift */; };
+		A344BB3F26608909008EFDA3 /* ExpenseByCategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB3E26608909008EFDA3 /* ExpenseByCategoryListView.swift */; };
+		A344BB412660A283008EFDA3 /* ExpenseByCategoryListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB402660A283008EFDA3 /* ExpenseByCategoryListRow.swift */; };
+		A344BB4726673788008EFDA3 /* WeightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB4626673788008EFDA3 /* WeightGraphView.swift */; };
+		A344BB4C26680AE3008EFDA3 /* WeightSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB4B26680AE3008EFDA3 /* WeightSectionHeaderView.swift */; };
+		A344BB4E26680D89008EFDA3 /* WeightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB4D26680D89008EFDA3 /* WeightRow.swift */; };
+		A344BB51266857C9008EFDA3 /* AddWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB50266857C9008EFDA3 /* AddWeightView.swift */; };
+		A344BB5326695776008EFDA3 /* WeightSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A344BB5226695776008EFDA3 /* WeightSectionView.swift */; };
+		A3484C2326700F9200ADE921 /* UnusualPageTopButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C2226700F9200ADE921 /* UnusualPageTopButtonsView.swift */; };
+		A3484C272670126D00ADE921 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3484C292670126D00ADE921 /* InfoPlist.strings */; };
+		A3484C2C2670154500ADE921 /* UnusualRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C2B2670154500ADE921 /* UnusualRow.swift */; };
+		A3484C3026701ED000ADE921 /* UnusualCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C2F26701ED000ADE921 /* UnusualCategoryEnum.swift */; };
+		A3484C3326702BD600ADE921 /* AddUnusualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C3226702BD600ADE921 /* AddUnusualView.swift */; };
+		A3484C35267036A100ADE921 /* UnusualCategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C34267036A100ADE921 /* UnusualCategorySectionView.swift */; };
+		A3484C372670378900ADE921 /* UnusualCategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C362670378900ADE921 /* UnusualCategoryCellView.swift */; };
+		A3484C3926713ADA00ADE921 /* UnusualFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C3826713ADA00ADE921 /* UnusualFilterView.swift */; };
+		A3484C3D26715D1900ADE921 /* EditUnusualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C3C26715D1900ADE921 /* EditUnusualView.swift */; };
+		A3484C3F2672B0FE00ADE921 /* ReminderHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C3E2672B0FE00ADE921 /* ReminderHeaderView.swift */; };
+		A3484C432672B9B100ADE921 /* ReminderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C422672B9B100ADE921 /* ReminderRow.swift */; };
+		A3484C482676AED700ADE921 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C472676AED700ADE921 /* AddReminderView.swift */; };
+		A3484C4A2676B7B600ADE921 /* ReminderDateSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C492676B7B600ADE921 /* ReminderDateSectionView.swift */; };
+		A3484C4C2676C27800ADE921 /* ReminderCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C4B2676C27800ADE921 /* ReminderCategoryEnum.swift */; };
+		A3484C4E2676CB6800ADE921 /* ReminderCategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C4D2676CB6800ADE921 /* ReminderCategorySectionView.swift */; };
+		A3484C502676CBE000ADE921 /* ReminderCategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C4F2676CBE000ADE921 /* ReminderCategoryCellView.swift */; };
+		A3484C522676D2EF00ADE921 /* ReminderRepeatSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C512676D2EF00ADE921 /* ReminderRepeatSectionView.swift */; };
+		A3484C542676DCB800ADE921 /* ReminderRepeatSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C532676DCB800ADE921 /* ReminderRepeatSelectionView.swift */; };
+		A3484C572676E27600ADE921 /* ReminderCustomRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C562676E27600ADE921 /* ReminderCustomRepeatView.swift */; };
+		A3484C592677196300ADE921 /* ReminderRepeatEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C582677196300ADE921 /* ReminderRepeatEnum.swift */; };
+		A3484C5B26771D7E00ADE921 /* ReminderRepeatButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C5A26771D7E00ADE921 /* ReminderRepeatButtonRow.swift */; };
+		A3484C5D2677235700ADE921 /* ReminderCustomRepeatButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C5C2677235700ADE921 /* ReminderCustomRepeatButtonRow.swift */; };
+		A3484C6126791B1E00ADE921 /* LocalNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C6026791B1E00ADE921 /* LocalNotification.swift */; };
+		A3484C63267994F100ADE921 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C62267994F100ADE921 /* ProfileHeaderView.swift */; };
+		A3484C65267996FF00ADE921 /* ProfilePetInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C64267996FF00ADE921 /* ProfilePetInfoView.swift */; };
+		A3484C67267A80D800ADE921 /* TabBarSubButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C66267A80D800ADE921 /* TabBarSubButtonView.swift */; };
+		A3484C69267A85AC00ADE921 /* TabBarAddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C68267A85AC00ADE921 /* TabBarAddButtonView.swift */; };
+		A3484C6B267A92D200ADE921 /* TabBarButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3484C6A267A92D200ADE921 /* TabBarButtonsView.swift */; };
+		A3484C6D267D21F700ADE921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3484C6C267D21F700ADE921 /* Assets.xcassets */; };
+		A3484C6F267D29EF00ADE921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3484C6E267D29EF00ADE921 /* LaunchScreen.storyboard */; };
+		A35E62C7266AD20100516255 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35E62C6266AD20100516255 /* LineGraph.swift */; };
+		A374855D265D852000F240DC /* ExpenseByCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374855C265D852000F240DC /* ExpenseByCategoryRow.swift */; };
+		A374855F265DC8ED00F240DC /* ExpenseByDateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374855E265DC8ED00F240DC /* ExpenseByDateRow.swift */; };
+		A3748561265DEEE300F240DC /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748560265DEEE300F240DC /* AddExpenseView.swift */; };
+		A3748564265DF12800F240DC /* ExpenseDateSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748563265DF12800F240DC /* ExpenseDateSectionView.swift */; };
+		A3748566265DF43900F240DC /* ExpenseCategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748565265DF43900F240DC /* ExpenseCategorySectionView.swift */; };
+		A3748568265DF45C00F240DC /* ExpenseCategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748567265DF45C00F240DC /* ExpenseCategoryCellView.swift */; };
+		A374856A265E0EAF00F240DC /* ExpenseAmountSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748569265E0EAF00F240DC /* ExpenseAmountSectionView.swift */; };
+		A374856C265EBD8900F240DC /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374856B265EBD8900F240DC /* NumberPad.swift */; };
+		A374856E265ED1CB00F240DC /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A374856D265ED1CB00F240DC /* NumberPadView.swift */; };
+		A3748571265ED6DB00F240DC /* NumberPadCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748570265ED6DB00F240DC /* NumberPadCellView.swift */; };
+		A3748573265F056D00F240DC /* ExpenseNoteSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3748572265F056D00F240DC /* ExpenseNoteSectionView.swift */; };
+		A3959CC02650E6A600CDA32D /* AddJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3959CBF2650E6A600CDA32D /* AddJournalView.swift */; };
+		A3959CC2265119D100CDA32D /* JournalDateSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3959CC1265119D100CDA32D /* JournalDateSectionView.swift */; };
+		A3BCA9702658B2750082B39C /* JournalFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA96F2658B2750082B39C /* JournalFilterView.swift */; };
+		A3BCA972265B7CFF0082B39C /* EditJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA971265B7CFF0082B39C /* EditJournalView.swift */; };
+		A3BCA995265C71E20082B39C /* RecordWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA994265C71E20082B39C /* RecordWeightView.swift */; };
+		A3BCA997265C71FC0082B39C /* RecordUnsusalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA996265C71FC0082B39C /* RecordUnsusalView.swift */; };
+		A3BCA999265C72130082B39C /* RecordMedicalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA998265C72130082B39C /* RecordMedicalView.swift */; };
+		A3BCA99B265C73780082B39C /* RecordPageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA99A265C73780082B39C /* RecordPageControllerView.swift */; };
+		A3BCA99D265CB3230082B39C /* ExpensesSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA99C265CB3230082B39C /* ExpensesSectionHeaderView.swift */; };
+		A3BCA99F265D79200082B39C /* ExpenseCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA99E265D79200082B39C /* ExpenseCategoryEnum.swift */; };
+		A3BCA9A1265D7FBC0082B39C /* RecordExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BCA9A0265D7FBC0082B39C /* RecordExpensesView.swift */; };
+		A3DF6EBC2643BE660022D53F /* BreedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EBB2643BE660022D53F /* BreedListView.swift */; };
+		A3DF6EBE2643C7620022D53F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EBD2643C7620022D53F /* Dog.swift */; };
+		A3DF6EC02643CEA60022D53F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EBF2643CEA60022D53F /* SearchBar.swift */; };
+		A3DF6EDF2644ECE10022D53F /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EDE2644ECE10022D53F /* Cat.swift */; };
+		A3DF6EE12644EE380022D53F /* OtherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EE02644EE380022D53F /* OtherType.swift */; };
+		A3DF6EE32644F2220022D53F /* PetInfoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EE22644F2220022D53F /* PetInfoDetailView.swift */; };
+		A3DF6EE726451A5D0022D53F /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EE626451A5D0022D53F /* PHPickerViewController.swift */; };
+		A3DF6EE926453C240022D53F /* PetImageSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EE826453C240022D53F /* PetImageSectionView.swift */; };
+		A3DF6EEB264540F10022D53F /* PetEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EEA264540F10022D53F /* PetEnum.swift */; };
+		A3DF6EED2645492E0022D53F /* PetGenderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EEC2645492E0022D53F /* PetGenderButtonView.swift */; };
+		A3DF6EF02645662F0022D53F /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EEF2645662F0022D53F /* DatePickerView.swift */; };
+		A3DF6EF22645742E0022D53F /* DateSelectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EF12645742E0022D53F /* DateSelectionSectionView.swift */; };
+		A3DF6EF526462A350022D53F /* PetLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EF326462A350022D53F /* PetLog.xcdatamodeld */; };
+		A3DF6EF7264651680022D53F /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EF6264651680022D53F /* MotherView.swift */; };
+		A3DF6EFD26479E270022D53F /* AddNewPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EFC26479E270022D53F /* AddNewPetView.swift */; };
+		A3DF6EFF26479FBC0022D53F /* PetNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6EFE26479FBC0022D53F /* PetNameTextField.swift */; };
+		A3DF6F0126479FED0022D53F /* PetGenderSelectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F0026479FED0022D53F /* PetGenderSelectionSectionView.swift */; };
+		A3DF6F032647A2D50022D53F /* BreedSelectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F022647A2D50022D53F /* BreedSelectionSectionView.swift */; };
+		A3DF6F052647A52E0022D53F /* TypeSelectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F042647A52E0022D53F /* TypeSelectionSectionView.swift */; };
+		A3DF6F072647CBF70022D53F /* SaveButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F062647CBF70022D53F /* SaveButtonView.swift */; };
+		A3DF6F09264A06140022D53F /* ManagePetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F08264A06140022D53F /* ManagePetView.swift */; };
+		A3DF6F0B264A0C3F0022D53F /* EditPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF6F0A264A0C3F0022D53F /* EditPetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30AA25C2640B43D00C1D6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30AA2422640B43C00C1D6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30AA2492640B43D00C1D6A7;
+			remoteInfo = PetLog;
+		};
+		A30AA2672640B43D00C1D6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30AA2422640B43C00C1D6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30AA2492640B43D00C1D6A7;
+			remoteInfo = PetLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A30A954426571E5400B96350 /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		A30A95482657379000B96350 /* FullScreenImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageView.swift; sourceTree = "<group>"; };
+		A30AA24A2640B43D00C1D6A7 /* PetLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30AA24D2640B43D00C1D6A7 /* PetLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLogApp.swift; sourceTree = "<group>"; };
+		A30AA24F2640B43D00C1D6A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A30AA2542640B43D00C1D6A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A30AA25B2640B43D00C1D6A7 /* PetLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30AA25F2640B43D00C1D6A7 /* PetLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLogTests.swift; sourceTree = "<group>"; };
+		A30AA2612640B43D00C1D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30AA2662640B43D00C1D6A7 /* PetLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30AA26A2640B43D00C1D6A7 /* PetLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetLogUITests.swift; sourceTree = "<group>"; };
+		A30AA26C2640B43D00C1D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30AA2832640BA6D00C1D6A7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A30AA2872640DBB900C1D6A7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A30AA28A2640DC9400C1D6A7 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		A30AA29326410E9100C1D6A7 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		A30AA29526410ED200C1D6A7 /* RecordPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPageView.swift; sourceTree = "<group>"; };
+		A30AA29726410EE800C1D6A7 /* ReminderPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderPageView.swift; sourceTree = "<group>"; };
+		A30AA29926410F0700C1D6A7 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		A30AA29B26413C7C00C1D6A7 /* HomePageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageHeaderView.swift; sourceTree = "<group>"; };
+		A30AA29D264158DE00C1D6A7 /* JournalSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSectionHeaderView.swift; sourceTree = "<group>"; };
+		A30AA29F26415B9600C1D6A7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A30AA2A12642169C00C1D6A7 /* JournalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		A30AA2A52642270E00C1D6A7 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		A30AA2AD2642543000C1D6A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30AA2D826425F0B00C1D6A7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A30AA2D926426DA500C1D6A7 /* HomeNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
+		A30AA2DC264282E400C1D6A7 /* InfoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPageView.swift; sourceTree = "<group>"; };
+		A30AA2DE2642872200C1D6A7 /* ActivitySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySectionView.swift; sourceTree = "<group>"; };
+		A30AA2E0264287B600C1D6A7 /* TypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionView.swift; sourceTree = "<group>"; };
+		A30AA2E2264357D500C1D6A7 /* PetTypeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTypeRow.swift; sourceTree = "<group>"; };
+		A318DA962669E0340002BBC9 /* EditWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditWeightView.swift; sourceTree = "<group>"; };
+		A31EE6F9265485B50084ED57 /* ActivityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityEnum.swift; sourceTree = "<group>"; };
+		A31EE6FC2654EE230084ED57 /* ActivityCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCellView.swift; sourceTree = "<group>"; };
+		A31EE6FE2655A0160084ED57 /* NoteSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSectionView.swift; sourceTree = "<group>"; };
+		A31EE7022655C9F40084ED57 /* FullEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullEditorView.swift; sourceTree = "<group>"; };
+		A31EE7042655E00F0084ED57 /* UIImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerView.swift; sourceTree = "<group>"; };
+		A31EE7062655E5070084ED57 /* JournalImageSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalImageSectionView.swift; sourceTree = "<group>"; };
+		A34366902643697A00DE11AB /* PetCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCreationView.swift; sourceTree = "<group>"; };
+		A34366922643B20C00DE11AB /* WelcomePageControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageControllerView.swift; sourceTree = "<group>"; };
+		A34366942643B31B00DE11AB /* BreedSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedSelectionView.swift; sourceTree = "<group>"; };
+		A344BB38266020CB008EFDA3 /* Wedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedge.swift; sourceTree = "<group>"; };
+		A344BB3A26605E22008EFDA3 /* ExpenseGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseGraphView.swift; sourceTree = "<group>"; };
+		A344BB3C26606A1E008EFDA3 /* EditExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExpenseView.swift; sourceTree = "<group>"; };
+		A344BB3E26608909008EFDA3 /* ExpenseByCategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseByCategoryListView.swift; sourceTree = "<group>"; };
+		A344BB402660A283008EFDA3 /* ExpenseByCategoryListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseByCategoryListRow.swift; sourceTree = "<group>"; };
+		A344BB4626673788008EFDA3 /* WeightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGraphView.swift; sourceTree = "<group>"; };
+		A344BB4B26680AE3008EFDA3 /* WeightSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightSectionHeaderView.swift; sourceTree = "<group>"; };
+		A344BB4D26680D89008EFDA3 /* WeightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightRow.swift; sourceTree = "<group>"; };
+		A344BB50266857C9008EFDA3 /* AddWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightView.swift; sourceTree = "<group>"; };
+		A344BB5226695776008EFDA3 /* WeightSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightSectionView.swift; sourceTree = "<group>"; };
+		A3484C2226700F9200ADE921 /* UnusualPageTopButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualPageTopButtonsView.swift; sourceTree = "<group>"; };
+		A3484C282670126D00ADE921 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		A3484C2B2670154500ADE921 /* UnusualRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualRow.swift; sourceTree = "<group>"; };
+		A3484C2F26701ED000ADE921 /* UnusualCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualCategoryEnum.swift; sourceTree = "<group>"; };
+		A3484C3226702BD600ADE921 /* AddUnusualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUnusualView.swift; sourceTree = "<group>"; };
+		A3484C34267036A100ADE921 /* UnusualCategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualCategorySectionView.swift; sourceTree = "<group>"; };
+		A3484C362670378900ADE921 /* UnusualCategoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualCategoryCellView.swift; sourceTree = "<group>"; };
+		A3484C3826713ADA00ADE921 /* UnusualFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusualFilterView.swift; sourceTree = "<group>"; };
+		A3484C3A26713D1400ADE921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A3484C3B26713D1900ADE921 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3484C3C26715D1900ADE921 /* EditUnusualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUnusualView.swift; sourceTree = "<group>"; };
+		A3484C3E2672B0FE00ADE921 /* ReminderHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderHeaderView.swift; sourceTree = "<group>"; };
+		A3484C422672B9B100ADE921 /* ReminderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRow.swift; sourceTree = "<group>"; };
+		A3484C452674252B00ADE921 /* PetLog.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = PetLog.entitlements; sourceTree = "<group>"; };
+		A3484C472676AED700ADE921 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		A3484C492676B7B600ADE921 /* ReminderDateSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDateSectionView.swift; sourceTree = "<group>"; };
+		A3484C4B2676C27800ADE921 /* ReminderCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCategoryEnum.swift; sourceTree = "<group>"; };
+		A3484C4D2676CB6800ADE921 /* ReminderCategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCategorySectionView.swift; sourceTree = "<group>"; };
+		A3484C4F2676CBE000ADE921 /* ReminderCategoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCategoryCellView.swift; sourceTree = "<group>"; };
+		A3484C512676D2EF00ADE921 /* ReminderRepeatSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRepeatSectionView.swift; sourceTree = "<group>"; };
+		A3484C532676DCB800ADE921 /* ReminderRepeatSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRepeatSelectionView.swift; sourceTree = "<group>"; };
+		A3484C562676E27600ADE921 /* ReminderCustomRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCustomRepeatView.swift; sourceTree = "<group>"; };
+		A3484C582677196300ADE921 /* ReminderRepeatEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRepeatEnum.swift; sourceTree = "<group>"; };
+		A3484C5A26771D7E00ADE921 /* ReminderRepeatButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRepeatButtonRow.swift; sourceTree = "<group>"; };
+		A3484C5C2677235700ADE921 /* ReminderCustomRepeatButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCustomRepeatButtonRow.swift; sourceTree = "<group>"; };
+		A3484C6026791B1E00ADE921 /* LocalNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotification.swift; sourceTree = "<group>"; };
+		A3484C62267994F100ADE921 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		A3484C64267996FF00ADE921 /* ProfilePetInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePetInfoView.swift; sourceTree = "<group>"; };
+		A3484C66267A80D800ADE921 /* TabBarSubButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSubButtonView.swift; sourceTree = "<group>"; };
+		A3484C68267A85AC00ADE921 /* TabBarAddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAddButtonView.swift; sourceTree = "<group>"; };
+		A3484C6A267A92D200ADE921 /* TabBarButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonsView.swift; sourceTree = "<group>"; };
+		A3484C6C267D21F700ADE921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3484C6E267D29EF00ADE921 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A35E62C4266ABFEC00516255 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A35E62C6266AD20100516255 /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		A374855C265D852000F240DC /* ExpenseByCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseByCategoryRow.swift; sourceTree = "<group>"; };
+		A374855E265DC8ED00F240DC /* ExpenseByDateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseByDateRow.swift; sourceTree = "<group>"; };
+		A3748560265DEEE300F240DC /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		A3748563265DF12800F240DC /* ExpenseDateSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDateSectionView.swift; sourceTree = "<group>"; };
+		A3748565265DF43900F240DC /* ExpenseCategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategorySectionView.swift; sourceTree = "<group>"; };
+		A3748567265DF45C00F240DC /* ExpenseCategoryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryCellView.swift; sourceTree = "<group>"; };
+		A3748569265E0EAF00F240DC /* ExpenseAmountSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseAmountSectionView.swift; sourceTree = "<group>"; };
+		A374856B265EBD8900F240DC /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		A374856D265ED1CB00F240DC /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		A3748570265ED6DB00F240DC /* NumberPadCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadCellView.swift; sourceTree = "<group>"; };
+		A3748572265F056D00F240DC /* ExpenseNoteSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseNoteSectionView.swift; sourceTree = "<group>"; };
+		A3959CBF2650E6A600CDA32D /* AddJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalView.swift; sourceTree = "<group>"; };
+		A3959CC1265119D100CDA32D /* JournalDateSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalDateSectionView.swift; sourceTree = "<group>"; };
+		A3BCA96F2658B2750082B39C /* JournalFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalFilterView.swift; sourceTree = "<group>"; };
+		A3BCA971265B7CFF0082B39C /* EditJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournalView.swift; sourceTree = "<group>"; };
+		A3BCA994265C71E20082B39C /* RecordWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWeightView.swift; sourceTree = "<group>"; };
+		A3BCA996265C71FC0082B39C /* RecordUnsusalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordUnsusalView.swift; sourceTree = "<group>"; };
+		A3BCA998265C72130082B39C /* RecordMedicalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordMedicalView.swift; sourceTree = "<group>"; };
+		A3BCA99A265C73780082B39C /* RecordPageControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPageControllerView.swift; sourceTree = "<group>"; };
+		A3BCA99C265CB3230082B39C /* ExpensesSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesSectionHeaderView.swift; sourceTree = "<group>"; };
+		A3BCA99E265D79200082B39C /* ExpenseCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCategoryEnum.swift; sourceTree = "<group>"; };
+		A3BCA9A0265D7FBC0082B39C /* RecordExpensesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordExpensesView.swift; sourceTree = "<group>"; };
+		A3DF6EBB2643BE660022D53F /* BreedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedListView.swift; sourceTree = "<group>"; };
+		A3DF6EBD2643C7620022D53F /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		A3DF6EBF2643CEA60022D53F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		A3DF6EDE2644ECE10022D53F /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		A3DF6EE02644EE380022D53F /* OtherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherType.swift; sourceTree = "<group>"; };
+		A3DF6EE22644F2220022D53F /* PetInfoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetInfoDetailView.swift; sourceTree = "<group>"; };
+		A3DF6EE626451A5D0022D53F /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
+		A3DF6EE826453C240022D53F /* PetImageSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImageSectionView.swift; sourceTree = "<group>"; };
+		A3DF6EEA264540F10022D53F /* PetEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEnum.swift; sourceTree = "<group>"; };
+		A3DF6EEC2645492E0022D53F /* PetGenderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGenderButtonView.swift; sourceTree = "<group>"; };
+		A3DF6EEF2645662F0022D53F /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		A3DF6EF12645742E0022D53F /* DateSelectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectionSectionView.swift; sourceTree = "<group>"; };
+		A3DF6EF426462A350022D53F /* PetLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetLog.xcdatamodel; sourceTree = "<group>"; };
+		A3DF6EF6264651680022D53F /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		A3DF6EFC26479E270022D53F /* AddNewPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPetView.swift; sourceTree = "<group>"; };
+		A3DF6EFE26479FBC0022D53F /* PetNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetNameTextField.swift; sourceTree = "<group>"; };
+		A3DF6F0026479FED0022D53F /* PetGenderSelectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGenderSelectionSectionView.swift; sourceTree = "<group>"; };
+		A3DF6F022647A2D50022D53F /* BreedSelectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedSelectionSectionView.swift; sourceTree = "<group>"; };
+		A3DF6F042647A52E0022D53F /* TypeSelectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeSelectionSectionView.swift; sourceTree = "<group>"; };
+		A3DF6F062647CBF70022D53F /* SaveButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButtonView.swift; sourceTree = "<group>"; };
+		A3DF6F08264A06140022D53F /* ManagePetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagePetView.swift; sourceTree = "<group>"; };
+		A3DF6F0A264A0C3F0022D53F /* EditPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30AA2472640B43D00C1D6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2582640B43D00C1D6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2632640B43D00C1D6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30AA2412640B43C00C1D6A7 = {
+			isa = PBXGroup;
+			children = (
+				A30AA24C2640B43D00C1D6A7 /* PetLog */,
+				A30AA25E2640B43D00C1D6A7 /* PetLogTests */,
+				A30AA2692640B43D00C1D6A7 /* PetLogUITests */,
+				A30AA24B2640B43D00C1D6A7 /* Products */,
+				A35E62C3266ABFEC00516255 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A30AA24B2640B43D00C1D6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA24A2640B43D00C1D6A7 /* PetLog.app */,
+				A30AA25B2640B43D00C1D6A7 /* PetLogTests.xctest */,
+				A30AA2662640B43D00C1D6A7 /* PetLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30AA24C2640B43D00C1D6A7 /* PetLog */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA27B2640B7A300C1D6A7 /* Resources */,
+				A3484C242670123A00ADE921 /* Localizable */,
+				A30AA27C2640B7A900C1D6A7 /* Managers */,
+				A30AA2792640B5D600C1D6A7 /* Models */,
+				A30AA2782640B5D000C1D6A7 /* Views */,
+				A30AA2532640B43D00C1D6A7 /* Preview Content */,
+			);
+			path = PetLog;
+			sourceTree = "<group>";
+		};
+		A30AA2532640B43D00C1D6A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2542640B43D00C1D6A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A30AA25E2640B43D00C1D6A7 /* PetLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA25F2640B43D00C1D6A7 /* PetLogTests.swift */,
+				A30AA2612640B43D00C1D6A7 /* Info.plist */,
+			);
+			path = PetLogTests;
+			sourceTree = "<group>";
+		};
+		A30AA2692640B43D00C1D6A7 /* PetLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA26A2640B43D00C1D6A7 /* PetLogUITests.swift */,
+				A30AA26C2640B43D00C1D6A7 /* Info.plist */,
+			);
+			path = PetLogUITests;
+			sourceTree = "<group>";
+		};
+		A30AA2782640B5D000C1D6A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF6EF6264651680022D53F /* MotherView.swift */,
+				A30AA24F2640B43D00C1D6A7 /* ContentView.swift */,
+				A3484C6E267D29EF00ADE921 /* LaunchScreen.storyboard */,
+				A30AA28F26410E4600C1D6A7 /* Home */,
+				A30AA29026410E6100C1D6A7 /* Record */,
+				A30AA29126410E6800C1D6A7 /* Reminder */,
+				A30AA29226410E6D00C1D6A7 /* Profile */,
+				A30AA2892640DC7F00C1D6A7 /* MainTabView */,
+				A30AA2DB2642805000C1D6A7 /* Welcome */,
+				A3DF6EEE26455FC20022D53F /* Pet Creation */,
+				A34366982643BD2200DE11AB /* Reusable */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A30AA2792640B5D600C1D6A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF6EF326462A350022D53F /* PetLog.xcdatamodeld */,
+				A3484C2E26701EA200ADE921 /* Shape */,
+				A3484C2D26701E6F00ADE921 /* Breed */,
+				A3DF6EEA264540F10022D53F /* PetEnum.swift */,
+				A31EE6F9265485B50084ED57 /* ActivityEnum.swift */,
+				A3BCA99E265D79200082B39C /* ExpenseCategoryEnum.swift */,
+				A374856B265EBD8900F240DC /* NumberPad.swift */,
+				A3484C2F26701ED000ADE921 /* UnusualCategoryEnum.swift */,
+				A3484C4B2676C27800ADE921 /* ReminderCategoryEnum.swift */,
+				A3484C582677196300ADE921 /* ReminderRepeatEnum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A30AA27B2640B7A300C1D6A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2AD2642543000C1D6A7 /* Info.plist */,
+				A3484C6C267D21F700ADE921 /* Assets.xcassets */,
+				A30AA24D2640B43D00C1D6A7 /* PetLogApp.swift */,
+				A30AA29F26415B9600C1D6A7 /* Extension.swift */,
+				A3484C452674252B00ADE921 /* PetLog.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A30AA27C2640B7A900C1D6A7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2832640BA6D00C1D6A7 /* Persistence.swift */,
+				A3484C6026791B1E00ADE921 /* LocalNotification.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A30AA2892640DC7F00C1D6A7 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2872640DBB900C1D6A7 /* MainTabView.swift */,
+				A30AA28A2640DC9400C1D6A7 /* TabBarItem.swift */,
+				A3484C6A267A92D200ADE921 /* TabBarButtonsView.swift */,
+				A3484C68267A85AC00ADE921 /* TabBarAddButtonView.swift */,
+				A3484C66267A80D800ADE921 /* TabBarSubButtonView.swift */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		A30AA28F26410E4600C1D6A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA29326410E9100C1D6A7 /* HomePageView.swift */,
+				A30AA2D926426DA500C1D6A7 /* HomeNavigationView.swift */,
+				A31EE6F5265483F90084ED57 /* Journal */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A30AA29026410E6100C1D6A7 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA29526410ED200C1D6A7 /* RecordPageView.swift */,
+				A3BCA99A265C73780082B39C /* RecordPageControllerView.swift */,
+				A3BCA98F265C6E9C0082B39C /* Expense */,
+				A3BCA98E265C6E950082B39C /* Weight */,
+				A3BCA990265C6EA40082B39C /* Unusual */,
+				A3BCA991265C6F720082B39C /* Medical */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		A30AA29126410E6800C1D6A7 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA29726410EE800C1D6A7 /* ReminderPageView.swift */,
+				A3484C3E2672B0FE00ADE921 /* ReminderHeaderView.swift */,
+				A3484C422672B9B100ADE921 /* ReminderRow.swift */,
+				A3484C462676AEBC00ADE921 /* Add New Reminder */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		A30AA29226410E6D00C1D6A7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA29926410F0700C1D6A7 /* ProfilePageView.swift */,
+				A3484C62267994F100ADE921 /* ProfileHeaderView.swift */,
+				A3484C64267996FF00ADE921 /* ProfilePetInfoView.swift */,
+				A3DF6F08264A06140022D53F /* ManagePetView.swift */,
+				A3DF6F0A264A0C3F0022D53F /* EditPetView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A30AA2DB2642805000C1D6A7 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2DC264282E400C1D6A7 /* InfoPageView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		A31EE6F5265483F90084ED57 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2A52642270E00C1D6A7 /* JournalView.swift */,
+				A30AA29B26413C7C00C1D6A7 /* HomePageHeaderView.swift */,
+				A30AA29D264158DE00C1D6A7 /* JournalSectionHeaderView.swift */,
+				A30AA2A12642169C00C1D6A7 /* JournalDetailView.swift */,
+				A3BCA96F2658B2750082B39C /* JournalFilterView.swift */,
+				A3BCA971265B7CFF0082B39C /* EditJournalView.swift */,
+				A31EE6FB2654EDF70084ED57 /* Add New Jorunal */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		A31EE6F6265484D70084ED57 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF6EE826453C240022D53F /* PetImageSectionView.swift */,
+				A3DF6EFE26479FBC0022D53F /* PetNameTextField.swift */,
+				A3DF6F0026479FED0022D53F /* PetGenderSelectionSectionView.swift */,
+				A3DF6EEC2645492E0022D53F /* PetGenderButtonView.swift */,
+				A3DF6F042647A52E0022D53F /* TypeSelectionSectionView.swift */,
+				A3DF6F022647A2D50022D53F /* BreedSelectionSectionView.swift */,
+				A3DF6EBB2643BE660022D53F /* BreedListView.swift */,
+				A3DF6EF12645742E0022D53F /* DateSelectionSectionView.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		A31EE6F7265485230084ED57 /* FirstPet */ = {
+			isa = PBXGroup;
+			children = (
+				A34366902643697A00DE11AB /* PetCreationView.swift */,
+				A34366922643B20C00DE11AB /* WelcomePageControllerView.swift */,
+				A30AA2E0264287B600C1D6A7 /* TypeSelectionView.swift */,
+				A30AA2E2264357D500C1D6A7 /* PetTypeRow.swift */,
+				A34366942643B31B00DE11AB /* BreedSelectionView.swift */,
+				A3DF6EE22644F2220022D53F /* PetInfoDetailView.swift */,
+			);
+			path = FirstPet;
+			sourceTree = "<group>";
+		};
+		A31EE6F8265485390084ED57 /* AddNew */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF6EFC26479E270022D53F /* AddNewPetView.swift */,
+			);
+			path = AddNew;
+			sourceTree = "<group>";
+		};
+		A31EE6FB2654EDF70084ED57 /* Add New Jorunal */ = {
+			isa = PBXGroup;
+			children = (
+				A3959CBF2650E6A600CDA32D /* AddJournalView.swift */,
+				A3959CC1265119D100CDA32D /* JournalDateSectionView.swift */,
+				A30AA2DE2642872200C1D6A7 /* ActivitySectionView.swift */,
+				A31EE6FC2654EE230084ED57 /* ActivityCellView.swift */,
+				A31EE6FE2655A0160084ED57 /* NoteSectionView.swift */,
+				A31EE7022655C9F40084ED57 /* FullEditorView.swift */,
+				A31EE7062655E5070084ED57 /* JournalImageSectionView.swift */,
+			);
+			path = "Add New Jorunal";
+			sourceTree = "<group>";
+		};
+		A34366982643BD2200DE11AB /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				A374856F265ED21700F240DC /* Number Pad */,
+				A3DF6F062647CBF70022D53F /* SaveButtonView.swift */,
+				A3DF6EBF2643CEA60022D53F /* SearchBar.swift */,
+				A3DF6EE626451A5D0022D53F /* PHPickerViewController.swift */,
+				A3DF6EEF2645662F0022D53F /* DatePickerView.swift */,
+				A31EE7042655E00F0084ED57 /* UIImagePickerView.swift */,
+				A30A954426571E5400B96350 /* ZoomableImageView.swift */,
+				A30A95482657379000B96350 /* FullScreenImageView.swift */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		A344BB4F266857B0008EFDA3 /* Add Weight */ = {
+			isa = PBXGroup;
+			children = (
+				A344BB50266857C9008EFDA3 /* AddWeightView.swift */,
+				A344BB5226695776008EFDA3 /* WeightSectionView.swift */,
+			);
+			path = "Add Weight";
+			sourceTree = "<group>";
+		};
+		A3484C242670123A00ADE921 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A30AA2D726425EE400C1D6A7 /* Localizable.strings */,
+				A3484C292670126D00ADE921 /* InfoPlist.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		A3484C2D26701E6F00ADE921 /* Breed */ = {
+			isa = PBXGroup;
+			children = (
+				A3DF6EBD2643C7620022D53F /* Dog.swift */,
+				A3DF6EDE2644ECE10022D53F /* Cat.swift */,
+				A3DF6EE02644EE380022D53F /* OtherType.swift */,
+			);
+			path = Breed;
+			sourceTree = "<group>";
+		};
+		A3484C2E26701EA200ADE921 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				A344BB38266020CB008EFDA3 /* Wedge.swift */,
+				A35E62C6266AD20100516255 /* LineGraph.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		A3484C3126702BB200ADE921 /* Add New Unusual */ = {
+			isa = PBXGroup;
+			children = (
+				A3484C3226702BD600ADE921 /* AddUnusualView.swift */,
+				A3484C34267036A100ADE921 /* UnusualCategorySectionView.swift */,
+				A3484C362670378900ADE921 /* UnusualCategoryCellView.swift */,
+			);
+			path = "Add New Unusual";
+			sourceTree = "<group>";
+		};
+		A3484C462676AEBC00ADE921 /* Add New Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				A3484C472676AED700ADE921 /* AddReminderView.swift */,
+				A3484C492676B7B600ADE921 /* ReminderDateSectionView.swift */,
+				A3484C552676DCC000ADE921 /* Repeat */,
+				A3484C4D2676CB6800ADE921 /* ReminderCategorySectionView.swift */,
+				A3484C4F2676CBE000ADE921 /* ReminderCategoryCellView.swift */,
+			);
+			path = "Add New Reminder";
+			sourceTree = "<group>";
+		};
+		A3484C552676DCC000ADE921 /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				A3484C512676D2EF00ADE921 /* ReminderRepeatSectionView.swift */,
+				A3484C532676DCB800ADE921 /* ReminderRepeatSelectionView.swift */,
+				A3484C5A26771D7E00ADE921 /* ReminderRepeatButtonRow.swift */,
+				A3484C562676E27600ADE921 /* ReminderCustomRepeatView.swift */,
+				A3484C5C2677235700ADE921 /* ReminderCustomRepeatButtonRow.swift */,
+			);
+			path = Repeat;
+			sourceTree = "<group>";
+		};
+		A35E62C3266ABFEC00516255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A35E62C4266ABFEC00516255 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3748562265DF10400F240DC /* Add Expense */ = {
+			isa = PBXGroup;
+			children = (
+				A3748560265DEEE300F240DC /* AddExpenseView.swift */,
+				A3748563265DF12800F240DC /* ExpenseDateSectionView.swift */,
+				A3748569265E0EAF00F240DC /* ExpenseAmountSectionView.swift */,
+				A3748565265DF43900F240DC /* ExpenseCategorySectionView.swift */,
+				A3748567265DF45C00F240DC /* ExpenseCategoryCellView.swift */,
+				A3748572265F056D00F240DC /* ExpenseNoteSectionView.swift */,
+			);
+			path = "Add Expense";
+			sourceTree = "<group>";
+		};
+		A374856F265ED21700F240DC /* Number Pad */ = {
+			isa = PBXGroup;
+			children = (
+				A374856D265ED1CB00F240DC /* NumberPadView.swift */,
+				A3748570265ED6DB00F240DC /* NumberPadCellView.swift */,
+			);
+			path = "Number Pad";
+			sourceTree = "<group>";
+		};
+		A3BCA98E265C6E950082B39C /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCA994265C71E20082B39C /* RecordWeightView.swift */,
+				A344BB4626673788008EFDA3 /* WeightGraphView.swift */,
+				A344BB4B26680AE3008EFDA3 /* WeightSectionHeaderView.swift */,
+				A344BB4D26680D89008EFDA3 /* WeightRow.swift */,
+				A318DA962669E0340002BBC9 /* EditWeightView.swift */,
+				A344BB4F266857B0008EFDA3 /* Add Weight */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		A3BCA98F265C6E9C0082B39C /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCA9A0265D7FBC0082B39C /* RecordExpensesView.swift */,
+				A344BB3A26605E22008EFDA3 /* ExpenseGraphView.swift */,
+				A3BCA99C265CB3230082B39C /* ExpensesSectionHeaderView.swift */,
+				A374855C265D852000F240DC /* ExpenseByCategoryRow.swift */,
+				A374855E265DC8ED00F240DC /* ExpenseByDateRow.swift */,
+				A344BB3E26608909008EFDA3 /* ExpenseByCategoryListView.swift */,
+				A344BB402660A283008EFDA3 /* ExpenseByCategoryListRow.swift */,
+				A344BB3C26606A1E008EFDA3 /* EditExpenseView.swift */,
+				A3748562265DF10400F240DC /* Add Expense */,
+			);
+			path = Expense;
+			sourceTree = "<group>";
+		};
+		A3BCA990265C6EA40082B39C /* Unusual */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCA996265C71FC0082B39C /* RecordUnsusalView.swift */,
+				A3484C2226700F9200ADE921 /* UnusualPageTopButtonsView.swift */,
+				A3484C2B2670154500ADE921 /* UnusualRow.swift */,
+				A3484C3826713ADA00ADE921 /* UnusualFilterView.swift */,
+				A3484C3C26715D1900ADE921 /* EditUnusualView.swift */,
+				A3484C3126702BB200ADE921 /* Add New Unusual */,
+			);
+			path = Unusual;
+			sourceTree = "<group>";
+		};
+		A3BCA991265C6F720082B39C /* Medical */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCA998265C72130082B39C /* RecordMedicalView.swift */,
+			);
+			path = Medical;
+			sourceTree = "<group>";
+		};
+		A3DF6EEE26455FC20022D53F /* Pet Creation */ = {
+			isa = PBXGroup;
+			children = (
+				A31EE6F8265485390084ED57 /* AddNew */,
+				A31EE6F7265485230084ED57 /* FirstPet */,
+				A31EE6F6265484D70084ED57 /* Sections */,
+			);
+			path = "Pet Creation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30AA2492640B43D00C1D6A7 /* PetLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30AA26F2640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLog" */;
+			buildPhases = (
+				A30AA2462640B43D00C1D6A7 /* Sources */,
+				A30AA2472640B43D00C1D6A7 /* Frameworks */,
+				A30AA2482640B43D00C1D6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetLog;
+			packageProductDependencies = (
+			);
+			productName = PetLog;
+			productReference = A30AA24A2640B43D00C1D6A7 /* PetLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30AA25A2640B43D00C1D6A7 /* PetLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30AA2722640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLogTests" */;
+			buildPhases = (
+				A30AA2572640B43D00C1D6A7 /* Sources */,
+				A30AA2582640B43D00C1D6A7 /* Frameworks */,
+				A30AA2592640B43D00C1D6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30AA25D2640B43D00C1D6A7 /* PBXTargetDependency */,
+			);
+			name = PetLogTests;
+			productName = PetLogTests;
+			productReference = A30AA25B2640B43D00C1D6A7 /* PetLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A30AA2652640B43D00C1D6A7 /* PetLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30AA2752640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLogUITests" */;
+			buildPhases = (
+				A30AA2622640B43D00C1D6A7 /* Sources */,
+				A30AA2632640B43D00C1D6A7 /* Frameworks */,
+				A30AA2642640B43D00C1D6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30AA2682640B43D00C1D6A7 /* PBXTargetDependency */,
+			);
+			name = PetLogUITests;
+			productName = PetLogUITests;
+			productReference = A30AA2662640B43D00C1D6A7 /* PetLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30AA2422640B43C00C1D6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A30AA2492640B43D00C1D6A7 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A30AA25A2640B43D00C1D6A7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A30AA2492640B43D00C1D6A7;
+					};
+					A30AA2652640B43D00C1D6A7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A30AA2492640B43D00C1D6A7;
+					};
+				};
+			};
+			buildConfigurationList = A30AA2452640B43C00C1D6A7 /* Build configuration list for PBXProject "PetLog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A30AA2412640B43C00C1D6A7;
+			packageReferences = (
+			);
+			productRefGroup = A30AA24B2640B43D00C1D6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30AA2492640B43D00C1D6A7 /* PetLog */,
+				A30AA25A2640B43D00C1D6A7 /* PetLogTests */,
+				A30AA2652640B43D00C1D6A7 /* PetLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30AA2482640B43D00C1D6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30AA2552640B43D00C1D6A7 /* Preview Assets.xcassets in Resources */,
+				A3484C272670126D00ADE921 /* InfoPlist.strings in Resources */,
+				A3484C6D267D21F700ADE921 /* Assets.xcassets in Resources */,
+				A3484C6F267D29EF00ADE921 /* LaunchScreen.storyboard in Resources */,
+				A30AA2D526425EE400C1D6A7 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2592640B43D00C1D6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2642640B43D00C1D6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30AA2462640B43D00C1D6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30AA28B2640DC9400C1D6A7 /* TabBarItem.swift in Sources */,
+				A3484C502676CBE000ADE921 /* ReminderCategoryCellView.swift in Sources */,
+				A30AA29426410E9100C1D6A7 /* HomePageView.swift in Sources */,
+				A374856A265E0EAF00F240DC /* ExpenseAmountSectionView.swift in Sources */,
+				A344BB412660A283008EFDA3 /* ExpenseByCategoryListRow.swift in Sources */,
+				A3484C3D26715D1900ADE921 /* EditUnusualView.swift in Sources */,
+				A318DA972669E0340002BBC9 /* EditWeightView.swift in Sources */,
+				A35E62C7266AD20100516255 /* LineGraph.swift in Sources */,
+				A3484C65267996FF00ADE921 /* ProfilePetInfoView.swift in Sources */,
+				A30AA2A62642270E00C1D6A7 /* JournalView.swift in Sources */,
+				A3748561265DEEE300F240DC /* AddExpenseView.swift in Sources */,
+				A3484C3F2672B0FE00ADE921 /* ReminderHeaderView.swift in Sources */,
+				A30AA29E264158DF00C1D6A7 /* JournalSectionHeaderView.swift in Sources */,
+				A30AA29826410EE800C1D6A7 /* ReminderPageView.swift in Sources */,
+				A3484C4A2676B7B600ADE921 /* ReminderDateSectionView.swift in Sources */,
+				A30AA2DD264282E400C1D6A7 /* InfoPageView.swift in Sources */,
+				A344BB51266857C9008EFDA3 /* AddWeightView.swift in Sources */,
+				A34366952643B31B00DE11AB /* BreedSelectionView.swift in Sources */,
+				A3959CC2265119D100CDA32D /* JournalDateSectionView.swift in Sources */,
+				A344BB39266020CB008EFDA3 /* Wedge.swift in Sources */,
+				A3DF6EDF2644ECE10022D53F /* Cat.swift in Sources */,
+				A344BB5326695776008EFDA3 /* WeightSectionView.swift in Sources */,
+				A3484C2326700F9200ADE921 /* UnusualPageTopButtonsView.swift in Sources */,
+				A3484C572676E27600ADE921 /* ReminderCustomRepeatView.swift in Sources */,
+				A30AA2882640DBB900C1D6A7 /* MainTabView.swift in Sources */,
+				A3484C6B267A92D200ADE921 /* TabBarButtonsView.swift in Sources */,
+				A3BCA995265C71E20082B39C /* RecordWeightView.swift in Sources */,
+				A34366932643B20C00DE11AB /* WelcomePageControllerView.swift in Sources */,
+				A3748573265F056D00F240DC /* ExpenseNoteSectionView.swift in Sources */,
+				A31EE7052655E00F0084ED57 /* UIImagePickerView.swift in Sources */,
+				A3BCA972265B7CFF0082B39C /* EditJournalView.swift in Sources */,
+				A3484C432672B9B100ADE921 /* ReminderRow.swift in Sources */,
+				A3DF6EF02645662F0022D53F /* DatePickerView.swift in Sources */,
+				A344BB4C26680AE3008EFDA3 /* WeightSectionHeaderView.swift in Sources */,
+				A3484C5D2677235700ADE921 /* ReminderCustomRepeatButtonRow.swift in Sources */,
+				A3DF6F072647CBF70022D53F /* SaveButtonView.swift in Sources */,
+				A3BCA997265C71FC0082B39C /* RecordUnsusalView.swift in Sources */,
+				A374856C265EBD8900F240DC /* NumberPad.swift in Sources */,
+				A3DF6EED2645492E0022D53F /* PetGenderButtonView.swift in Sources */,
+				A30AA2E3264357D500C1D6A7 /* PetTypeRow.swift in Sources */,
+				A3484C5B26771D7E00ADE921 /* ReminderRepeatButtonRow.swift in Sources */,
+				A3BCA99B265C73780082B39C /* RecordPageControllerView.swift in Sources */,
+				A344BB4726673788008EFDA3 /* WeightGraphView.swift in Sources */,
+				A3DF6EBC2643BE660022D53F /* BreedListView.swift in Sources */,
+				A3484C372670378900ADE921 /* UnusualCategoryCellView.swift in Sources */,
+				A3484C63267994F100ADE921 /* ProfileHeaderView.swift in Sources */,
+				A30AA2A22642169C00C1D6A7 /* JournalDetailView.swift in Sources */,
+				A3484C3926713ADA00ADE921 /* UnusualFilterView.swift in Sources */,
+				A3BCA99D265CB3230082B39C /* ExpensesSectionHeaderView.swift in Sources */,
+				A3748568265DF45C00F240DC /* ExpenseCategoryCellView.swift in Sources */,
+				A31EE6FF2655A0160084ED57 /* NoteSectionView.swift in Sources */,
+				A30A954526571E5400B96350 /* ZoomableImageView.swift in Sources */,
+				A3BCA9702658B2750082B39C /* JournalFilterView.swift in Sources */,
+				A3484C3026701ED000ADE921 /* UnusualCategoryEnum.swift in Sources */,
+				A3484C2C2670154500ADE921 /* UnusualRow.swift in Sources */,
+				A31EE7032655C9F40084ED57 /* FullEditorView.swift in Sources */,
+				A3DF6EE12644EE380022D53F /* OtherType.swift in Sources */,
+				A374855F265DC8ED00F240DC /* ExpenseByDateRow.swift in Sources */,
+				A3DF6EF7264651680022D53F /* MotherView.swift in Sources */,
+				A3484C4E2676CB6800ADE921 /* ReminderCategorySectionView.swift in Sources */,
+				A34366912643697A00DE11AB /* PetCreationView.swift in Sources */,
+				A3DF6EFF26479FBC0022D53F /* PetNameTextField.swift in Sources */,
+				A3748564265DF12800F240DC /* ExpenseDateSectionView.swift in Sources */,
+				A3484C35267036A100ADE921 /* UnusualCategorySectionView.swift in Sources */,
+				A344BB3D26606A1E008EFDA3 /* EditExpenseView.swift in Sources */,
+				A3484C3326702BD600ADE921 /* AddUnusualView.swift in Sources */,
+				A3DF6EC02643CEA60022D53F /* SearchBar.swift in Sources */,
+				A3DF6EFD26479E270022D53F /* AddNewPetView.swift in Sources */,
+				A30AA2DA26426DA500C1D6A7 /* HomeNavigationView.swift in Sources */,
+				A3484C67267A80D800ADE921 /* TabBarSubButtonView.swift in Sources */,
+				A30AA2E1264287B600C1D6A7 /* TypeSelectionView.swift in Sources */,
+				A3484C482676AED700ADE921 /* AddReminderView.swift in Sources */,
+				A31EE6FA265485B50084ED57 /* ActivityEnum.swift in Sources */,
+				A3DF6EE32644F2220022D53F /* PetInfoDetailView.swift in Sources */,
+				A3DF6F09264A06140022D53F /* ManagePetView.swift in Sources */,
+				A31EE7072655E5070084ED57 /* JournalImageSectionView.swift in Sources */,
+				A3484C522676D2EF00ADE921 /* ReminderRepeatSectionView.swift in Sources */,
+				A31EE6FD2654EE230084ED57 /* ActivityCellView.swift in Sources */,
+				A3DF6EE926453C240022D53F /* PetImageSectionView.swift in Sources */,
+				A374855D265D852000F240DC /* ExpenseByCategoryRow.swift in Sources */,
+				A3DF6EEB264540F10022D53F /* PetEnum.swift in Sources */,
+				A3484C69267A85AC00ADE921 /* TabBarAddButtonView.swift in Sources */,
+				A30AA2502640B43D00C1D6A7 /* ContentView.swift in Sources */,
+				A374856E265ED1CB00F240DC /* NumberPadView.swift in Sources */,
+				A3484C542676DCB800ADE921 /* ReminderRepeatSelectionView.swift in Sources */,
+				A3DF6EF22645742E0022D53F /* DateSelectionSectionView.swift in Sources */,
+				A30AA2DF2642872200C1D6A7 /* ActivitySectionView.swift in Sources */,
+				A3484C4C2676C27800ADE921 /* ReminderCategoryEnum.swift in Sources */,
+				A30AA2842640BA6D00C1D6A7 /* Persistence.swift in Sources */,
+				A3484C592677196300ADE921 /* ReminderRepeatEnum.swift in Sources */,
+				A344BB4E26680D89008EFDA3 /* WeightRow.swift in Sources */,
+				A30A95492657379000B96350 /* FullScreenImageView.swift in Sources */,
+				A30AA29C26413C7C00C1D6A7 /* HomePageHeaderView.swift in Sources */,
+				A3DF6EE726451A5D0022D53F /* PHPickerViewController.swift in Sources */,
+				A3DF6F0B264A0C3F0022D53F /* EditPetView.swift in Sources */,
+				A3DF6F032647A2D50022D53F /* BreedSelectionSectionView.swift in Sources */,
+				A30AA2A026415B9600C1D6A7 /* Extension.swift in Sources */,
+				A3BCA999265C72130082B39C /* RecordMedicalView.swift in Sources */,
+				A3748566265DF43900F240DC /* ExpenseCategorySectionView.swift in Sources */,
+				A30AA29626410ED200C1D6A7 /* RecordPageView.swift in Sources */,
+				A344BB3F26608909008EFDA3 /* ExpenseByCategoryListView.swift in Sources */,
+				A344BB3B26605E22008EFDA3 /* ExpenseGraphView.swift in Sources */,
+				A3BCA9A1265D7FBC0082B39C /* RecordExpensesView.swift in Sources */,
+				A30AA29A26410F0700C1D6A7 /* ProfilePageView.swift in Sources */,
+				A3DF6EBE2643C7620022D53F /* Dog.swift in Sources */,
+				A3BCA99F265D79200082B39C /* ExpenseCategoryEnum.swift in Sources */,
+				A3DF6F0126479FED0022D53F /* PetGenderSelectionSectionView.swift in Sources */,
+				A3DF6EF526462A350022D53F /* PetLog.xcdatamodeld in Sources */,
+				A3748571265ED6DB00F240DC /* NumberPadCellView.swift in Sources */,
+				A3484C6126791B1E00ADE921 /* LocalNotification.swift in Sources */,
+				A3DF6F052647A52E0022D53F /* TypeSelectionSectionView.swift in Sources */,
+				A3959CC02650E6A600CDA32D /* AddJournalView.swift in Sources */,
+				A30AA24E2640B43D00C1D6A7 /* PetLogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2572640B43D00C1D6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30AA2602640B43D00C1D6A7 /* PetLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30AA2622640B43D00C1D6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30AA26B2640B43D00C1D6A7 /* PetLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30AA25D2640B43D00C1D6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30AA2492640B43D00C1D6A7 /* PetLog */;
+			targetProxy = A30AA25C2640B43D00C1D6A7 /* PBXContainerItemProxy */;
+		};
+		A30AA2682640B43D00C1D6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30AA2492640B43D00C1D6A7 /* PetLog */;
+			targetProxy = A30AA2672640B43D00C1D6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30AA2D726425EE400C1D6A7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30AA2D826425F0B00C1D6A7 /* zh-Hans */,
+				A3484C3A26713D1400ADE921 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A3484C292670126D00ADE921 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3484C282670126D00ADE921 /* zh-Hans */,
+				A3484C3B26713D1900ADE921 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30AA26D2640B43D00C1D6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A30AA26E2640B43D00C1D6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30AA2702640B43D00C1D6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetLog/resources/PetLog.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"PetLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PetLog/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A30AA2712640B43D00C1D6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetLog/resources/PetLog.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"PetLog/Preview Content\"";
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PetLog/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A30AA2732640B43D00C1D6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				INFOPLIST_FILE = PetLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetLog.app/PetLog";
+			};
+			name = Debug;
+		};
+		A30AA2742640B43D00C1D6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				INFOPLIST_FILE = PetLogTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetLog.app/PetLog";
+			};
+			name = Release;
+		};
+		A30AA2762640B43D00C1D6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				INFOPLIST_FILE = PetLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetLog;
+			};
+			name = Debug;
+		};
+		A30AA2772640B43D00C1D6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NZG97S8X7;
+				INFOPLIST_FILE = PetLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hqin0066.PetLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30AA2452640B43C00C1D6A7 /* Build configuration list for PBXProject "PetLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30AA26D2640B43D00C1D6A7 /* Debug */,
+				A30AA26E2640B43D00C1D6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30AA26F2640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30AA2702640B43D00C1D6A7 /* Debug */,
+				A30AA2712640B43D00C1D6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30AA2722640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30AA2732640B43D00C1D6A7 /* Debug */,
+				A30AA2742640B43D00C1D6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30AA2752640B43D00C1D6A7 /* Build configuration list for PBXNativeTarget "PetLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30AA2762640B43D00C1D6A7 /* Debug */,
+				A30AA2772640B43D00C1D6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3DF6EF326462A350022D53F /* PetLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3DF6EF426462A350022D53F /* PetLog.xcdatamodel */,
+			);
+			currentVersion = A3DF6EF426462A350022D53F /* PetLog.xcdatamodel */;
+			path = PetLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A30AA2422640B43C00C1D6A7 /* Project object */;
+}
