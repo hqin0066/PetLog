@@ -29,7 +29,7 @@ struct TabBarSubButtonView: View {
 			}
 			
 			Text(text)
-				.font(.footnote)
+				.font(.system(size: 13))
 				.bold()
 				.multilineTextAlignment(.center)
 				.foregroundColor(.white)

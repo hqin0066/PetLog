@@ -78,11 +78,11 @@ struct WeightGraphView: View {
 				ForEach(yValues, id: \.self) { value in
 					HStack(spacing: .zero) {
 						Text(value)
-							.font(.caption)
+              .font(.system(size: 12))
 							.foregroundColor(.textGray)
 						
 						Text(inPound ? "lb" : "kg")
-							.font(.caption)
+							.font(.system(size: 12))
 							.foregroundColor(.textGray)
 					}
 					.frame(height: UIScreen.main.bounds.width / 13, alignment: .top)
@@ -112,7 +112,7 @@ struct WeightGraphView: View {
 								ForEach(weights, id: \.self) { weight in
 									Text(self.getDisplayWeight(value: weight))
 										.bold()
-										.font(.footnote)
+										.font(.system(size: 13))
 										.foregroundColor(.textGray)
 										.frame(width: UIScreen.main.bounds.width / 8, alignment: .center)
 										.offset(x: self.pointValueOffset, y: self.getPointValueOffset(value: weight))
@@ -125,7 +125,7 @@ struct WeightGraphView: View {
 						HStack(spacing: .zero) {
 							ForEach(xValue, id: \.self) { value in
 								Text(value)
-									.font(.caption)
+									.font(.system(size: 12))
 									.foregroundColor(.textGray)
 									.frame(width: UIScreen.main.bounds.width / 8, alignment: .center)
 									.id(value)

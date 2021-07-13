@@ -25,7 +25,7 @@ struct TabBarItem: View {
 				.foregroundColor(self.currentPage == assignedTab ? Color("PinkyOrange") : Color("Gray"))
 			
 			Text(LocalizedStringKey(tabName))
-				.font(.caption2)
+        .font(.system(size: 13))
 				.foregroundColor(self.currentPage == assignedTab ? Color.pinkyOrange : Color.textGray)
 			
 			Spacer()

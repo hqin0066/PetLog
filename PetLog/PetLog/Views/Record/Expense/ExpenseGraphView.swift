@@ -17,9 +17,9 @@ struct ExpenseGraphView: View {
 	var font: Font {
 		let count = self.displayTotal.count
 		if count < 9 {
-			return .title3
+			return .system(size: 20)
 		} else {
-			return .subheadline
+      return .system(size: 15)
 		}
 	}
 	

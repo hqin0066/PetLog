@@ -44,7 +44,7 @@ struct UnusualCategoryCellView: View {
 			.animation(.easeIn(duration: 0.2))
 			
 			Text(LocalizedStringKey(category.rawValue))
-				.font(.footnote)
+				.font(.system(size: 11))
 				.foregroundColor(.textGray)
 				.lineLimit(nil)
 				.multilineTextAlignment(.center)

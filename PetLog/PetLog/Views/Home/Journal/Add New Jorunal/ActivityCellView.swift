@@ -44,7 +44,7 @@ struct ActivityCellView: View {
 			.animation(.easeIn(duration: 0.2))
 			
 			Text(LocalizedStringKey(activity.rawValue))
-				.font(.footnote)
+				.font(.system(size: 12))
 				.foregroundColor(.textGray)
 				.lineLimit(nil)
 				.multilineTextAlignment(.center)

@@ -10,6 +10,8 @@ import SwiftUI
 struct TabBarAddButtonView: View {
 	
 	@Binding var addButtonsPresented: Bool
+  
+  let size: CGFloat
 	
 	var body: some View {
 		ZStack {
@@ -28,14 +30,14 @@ struct TabBarAddButtonView: View {
 					}
 				}
 		}
-		.frame(width: UIScreen.main.bounds.width / 8,
-					 height: UIScreen.main.bounds.width / 8)
+		.frame(width: size,
+					 height: size)
 	}
 }
 
 struct TabBarAddButtonView_Previews: PreviewProvider {
 	static var previews: some View {
-		TabBarAddButtonView(addButtonsPresented: .constant(false))
+    TabBarAddButtonView(addButtonsPresented: .constant(false), size: UIScreen.main.bounds.width / 8)
 			.previewLayout(.fixed(width: 150, height: 150))
 	}
 }
