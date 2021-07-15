@@ -115,7 +115,7 @@ struct JournalFilterActivityCellView: View {
 			.animation(.easeIn(duration: 0.2))
 			
 			Text(LocalizedStringKey(activity.rawValue))
-				.font(.caption)
+				.font(.system(size: 12))
 				.foregroundColor(.textGray)
 				.lineLimit(nil)
 				.multilineTextAlignment(.center)
