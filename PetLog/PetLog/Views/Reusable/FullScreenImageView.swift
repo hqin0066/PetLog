@@ -26,7 +26,6 @@ struct FullScreenImageView: View {
 			}
 		}
 		.edgesIgnoringSafeArea(.all)
-		.statusBar(hidden: true)
 		.opacity(isShowing ? 1 : 0)
 		.gesture(DragGesture().onEnded { _ in
 			withAnimation {
